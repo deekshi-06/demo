@@ -7,3 +7,4 @@ def sum(n):
         return n + sum(n - 1)
     
 print("The sum is", sum(n))
+print("The sum is", sum(10))
